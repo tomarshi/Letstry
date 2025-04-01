@@ -28,7 +28,7 @@ $secondary: #a0f669;
 }
 
 html {
-	// overflow-x: hidden;
+	
 }
 body {
 	font-family: $font-primary;
@@ -72,7 +72,7 @@ h1, h2, h3, h4, h5,
 	left: 0;
 	right: 0;
 	z-index: 3;
-	// padding-top: 30px;
+	
 	@include media-breakpoint-down(md) {
 		background: $black!important;
 		position: relative;
@@ -105,7 +105,7 @@ h1, h2, h3, h4, h5,
 	.navbar-nav {
 		@include media-breakpoint-down(md){
 			padding-bottom: 20px;
-			// margin-left: 20px !important;
+			
 			margin-right: 0;
 		}
 		> .nav-item {
@@ -356,7 +356,7 @@ h1, h2, h3, h4, h5,
 	}
 }
 
-//OWL CAROUSEL
+
 .owl-carousel {
 	position: relative;
 	.owl-item {
@@ -734,7 +734,7 @@ h1, h2, h3, h4, h5,
 }
 
 
-//BUTTON
+
 .btn {
 	cursor: pointer;
 	@include border-radius(40px);
@@ -812,7 +812,7 @@ h1, h2, h3, h4, h5,
 }
 
 
-//FTCO ABOUT
+
 .ftco-about{
 	.img-about{
 		width: 100%;
